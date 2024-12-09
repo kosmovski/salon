@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5a623">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <title>Beauty Salon Orders</title>
+</head>
+<body>
+  <header>
+    <h1>Замовлення</h1>
+  </header>
+  <main id="app">
+    <div id="orders">
+      <!-- Список замовлень буде завантажений тут -->
+    </div>
+    <div id="order-details" class="hidden">
+      <button id="back-button">⬅ Назад</button>
+      <div id="details-content">
+        <!-- Деталі замовлення -->
+      </div>
+      <input type="file" id="photo-input" accept="image/*" class="hidden">
+      <button id="add-photo">Додати фото</button>
+      <button id="send-data">Відправити дані</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
